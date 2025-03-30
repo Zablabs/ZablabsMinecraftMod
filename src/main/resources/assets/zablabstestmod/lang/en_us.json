@@ -1,3 +1,5 @@
 {
-  "item.zablabstestmod.ruby": "Ruby"
+  "item.zablabstestmod.ruby": "Ruby",
+
+  "block.zablabstestmod.ruby_block": "Block of Ruby"
 }
