@@ -1,5 +1,6 @@
 package net.zablabs.testmod.Block;
 
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -25,7 +26,18 @@ public class ModBlocks {
                             .sound(SoundType.METAL)
                             .requiresCorrectToolForDrops()
                     ));
-
+            public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+                    () -> new Block(BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .sound(SoundType.STONE)
+                            .requiresCorrectToolForDrops()
+                    ));
+            public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
+                    () -> new Block(BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .sound(SoundType.STONE)
+                            .requiresCorrectToolForDrops()
+                    ));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

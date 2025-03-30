@@ -1,5 +1,10 @@
 {
   "item.zablabstestmod.ruby": "Ruby",
+  "item.zablabstestmod.raw_ruby": "Raw Ruby",
 
-  "block.zablabstestmod.ruby_block": "Block of Ruby"
+  "block.zablabstestmod.ruby_block": "Block of Ruby",
+  "block.zablabstestmod.ruby_ore": "Ruby Ore",
+  "block.zablabstestmod.raw_ruby_block": "Block of Raw Ruby",
+
+  "creativetab.zablabstestmod.ruby_items": "Ruby Items"
 }
