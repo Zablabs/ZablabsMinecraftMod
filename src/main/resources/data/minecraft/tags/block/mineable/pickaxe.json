@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "zablabstestmod:ruby_block",
+    "zablabstestmod:raw_ruby_block",
+    "zablabstestmod:ruby_ore"
+  ]
+}

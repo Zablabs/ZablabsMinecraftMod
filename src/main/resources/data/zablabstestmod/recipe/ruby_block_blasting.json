@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": "800",
+  "experience": "2",
+  "group": "ruby",
+  "ingredient": {
+    "item": "zablabstestmod:raw_ruby_block"
+  },
+  "result": {
+    "id": "zablabstestmod:ruby_block"
+  }
+}
